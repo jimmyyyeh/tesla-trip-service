@@ -14,7 +14,7 @@ services:
       - ./config/phpmyadmin/config.inc.php:/etc/phpmyadmin/config.inc.php
     container_name: tesla_trip_phpmyadmin
   teals_trip_mysql:
-    image: mysql:5.6
+    image: mysql:5.7
     networks:
       - tesla-trip-proxy
     environment:
