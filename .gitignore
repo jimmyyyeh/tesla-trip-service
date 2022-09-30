@@ -4,4 +4,4 @@
 .vscode/
 db/
 tmp.*
-
+*.sql
