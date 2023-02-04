@@ -13,7 +13,7 @@ services:
     volumes:
       - ./config/phpmyadmin/config.inc.php:/etc/phpmyadmin/config.inc.php
     container_name: tesla_trip_phpmyadmin
-  teals_trip_mysql:
+  tesla_trip_mysql:
     image: mysql/mysql-server:5.7
     networks:
       - tesla-trip-proxy
